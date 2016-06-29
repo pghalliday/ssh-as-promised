@@ -1,0 +1,19 @@
+{
+  "name": "ssh-as-promised",
+  "version": "0.1.0",
+  "description": "A pure NodeJS, promise based SSH implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Halliday <pghalliday@gmail.com> (http://pghalliday.com/)",
+  "repository": "pghalliday/ssh-as-promised",
+  "homepage": "https://github.com/pghalliday/ssh-as-promised",
+  "bugs": "https://github.com/pghalliday/ssh-as-promised/issues",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "rx-lite": "^4.0.8",
+    "ssh2": "^0.5.0"
+  }
+}
